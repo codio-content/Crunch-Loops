@@ -14,7 +14,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Loops---Counters-117b.md"
@@ -182,7 +182,18 @@
   {
    "id": "21b0c0dd-563a-1dfb-9b93-136937eb4e51",
    "title": "N Factorial",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/n-factorial.crunch",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/N-Factorial-21b0.md"

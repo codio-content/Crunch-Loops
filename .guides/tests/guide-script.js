@@ -13,27 +13,6 @@ window.addEventListener('codio-button-custom', function (ev) {
       
       // Select test
       switch (ev.cmd) {
-        case 'io.crunch':
-          t_io(data);
-          break;
-        case 'add100.crunch':
-          t_add100(data);
-          break;
-        case 'x-times-y.crunch':
-          t_xTimesY(data);
-          break;
-        case 'abc.crunch':
-          t_abc(data);
-          break;
-        case 'branch-1.crunch':
-          t_branch1(data);
-          break;
-        case 'branch-2.crunch':
-          t_branch2(data);
-          break;
-        case 'branch-3.crunch':
-          t_branch3(data);
-          break;
         case 'print-0-to-N.crunch':
           t_print0ToN(data);
           break;
