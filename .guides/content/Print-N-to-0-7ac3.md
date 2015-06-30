@@ -8,6 +8,6 @@ Write a program that does the following
 
 When you're done, press the button below.
 
-{Check it!! | custom}(print-N-to-0.crunch)
+{Check it!! | custom}(printNTo0.crunch)
 
 |||

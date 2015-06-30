@@ -55,7 +55,7 @@
      "action": "close"
     },
     {
-     "path": "public/print-0-to-N.crunch",
+     "path": "public/print0ToN.crunch",
      "panel": 0,
      "action": "open"
     }
@@ -74,7 +74,7 @@
      "action": "close"
     },
     {
-     "path": "public/print-N-to-0.crunch",
+     "path": "public/printNTo0.crunch",
      "panel": 0,
      "action": "open"
     }
@@ -112,7 +112,7 @@
      "action": "close"
     },
     {
-     "path": "public/times-table.crunch",
+     "path": "public/timesTable.crunch",
      "panel": 0,
      "action": "open"
     }
@@ -131,7 +131,7 @@
      "action": "close"
     },
     {
-     "path": "public/x-power-y.crunch",
+     "path": "public/xPowerY.crunch",
      "panel": 0,
      "action": "open"
     }
@@ -169,7 +169,7 @@
      "action": "close"
     },
     {
-     "path": "public/10-div-2.crunch",
+     "path": "public/10Div2.crunch",
      "panel": 0,
      "action": "open"
     }
@@ -188,7 +188,7 @@
      "action": "close"
     },
     {
-     "path": "public/n-factorial.crunch",
+     "path": "public/nFactorial.crunch",
      "panel": 0,
      "action": "open"
     }

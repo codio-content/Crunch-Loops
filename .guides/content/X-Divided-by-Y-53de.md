@@ -22,6 +22,6 @@ If the validation fails, output `-1`.
 
 When you're done, press the button below.
 
-{Check it!! | custom}(10-div-2.crunch)
+{Check it!! | custom}(10Div2.crunch)
 
 |||
