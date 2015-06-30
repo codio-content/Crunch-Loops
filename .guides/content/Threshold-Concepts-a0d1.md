@@ -1,4 +1,4 @@
-Counters and maintaining running totals (`CurrentValue` in our example on the left) of various types crop up an awful lot in programming. Not just in Crunch but in every programming language.
+Counters and maintaining running totals (`CurrentTotal` in our example on the left) of various types crop up an awful lot in programming. Not just in Crunch but in every programming language.
 
 Both of these concepts need to be fully mastered in order to progress to useful programs.
 

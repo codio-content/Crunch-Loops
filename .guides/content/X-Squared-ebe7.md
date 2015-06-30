@@ -1,6 +1,6 @@
 |||challenge
 
-Write a program to calculate 
+Write a program to calculate and output 
 
 $$
 x^2
