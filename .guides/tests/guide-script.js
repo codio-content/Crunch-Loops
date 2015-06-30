@@ -19,7 +19,7 @@ function t_printNTo0(data) {
 }
 
 function t_timesTable(data) {
-  TESTS.SimpleOutputTestWithInputRange(data, {min: 0, max: 16}, function(inp, vars) {
+  TESTS.SimpleOutputTestWithInputRange(data, {min: 1, max: 16}, function(inp, vars) {
     var expected = [];
     if (inp[0] <= 12) {
       for (var i = 1; i <= 12; ++i) {
@@ -42,7 +42,7 @@ function t_x2(data) {
   });
 }
 
-function t_10div2(data) {
+function t_10Div2(data) {
   if (TESTS.CountNumInstructionsOfType(data, CRUNCH.INSTRUCTION_TYPE_DIV) > 0) {
     TESTS.ShowFail('You are not allowed to use any DIV instructructions for this test.');
     return;
@@ -65,16 +65,16 @@ function t_xPowerY(data) {
 
 function t_fibonacci(data) {
   var fibonacci = function(iterations, output, val1, val2) {
+    output.push(val1);
     if (iterations === 0) {
       return val1;
     }
-    output.push(val1);
     output.push(fibonacci(iterations - 1, output, val2, val1 + val2));
   }
   
   TESTS.SimpleOutputTestWithInputRange(data, {min: 0, max: 20}, function(inp, vars) {
     var expected = [];
-    fibonacci(inp[0], expected, 0, 1);
+    fibonacci(5, expected, 0, 1);
     return expected;
   });
 }
