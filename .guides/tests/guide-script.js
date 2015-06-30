@@ -33,7 +33,7 @@ function t_timesTable(data) {
 }
 
 function t_x2(data) {
-  if (TESTS.CountNumInstructionsOfType(CRUNCH.INSTRUCTION_TYPE_OUT) > 2) {
+  if (TESTS.CountNumInstructionsOfType(data, CRUNCH.INSTRUCTION_TYPE_OUT) > 2) {
     TESTS.ShowFail('You are not allowed to use more than one OUT for this test.');
     return;
   }
@@ -43,7 +43,7 @@ function t_x2(data) {
 }
 
 function t_10div2(data) {
-  if (TESTS.CountNumInstructionsOfType(CRUNCH.INSTRUCTION_TYPE_DIV) > 1) {
+  if (TESTS.CountNumInstructionsOfType(data, CRUNCH.INSTRUCTION_TYPE_DIV) > 1) {
     TESTS.ShowFail('You are not allowed to use any DIV instructructions for this test.');
     return;
   }
