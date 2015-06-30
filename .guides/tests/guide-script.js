@@ -73,7 +73,7 @@ function t_fibonacci(data) {
   
   TESTS.SimpleOutputTestWithInputRange(data, {min: 0, max: 20}, function(inp, vars) {
     var expected = [];
-    fibonacci(5, expected, 0, 1);
+    fibonacci(inp[0], expected, 0, 1);
     expected.push(0);
     expected.reverse();
     return expected;
