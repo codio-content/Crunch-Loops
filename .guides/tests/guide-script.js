@@ -65,22 +65,32 @@ function t_xPowerY(data) {
 
 function t_fibonacci(data) {
   var fibonacci = function(iterations, output, val1, val2) {
-    output.push(val1);
     if (iterations === 0) {
       return val1;
     }
+    output.push(val1);
     output.push(fibonacci(iterations - 1, output, val2, val1 + val2));
   }
   
   TESTS.SimpleOutputTestWithInputRange(data, {min: 0, max: 20}, function(inp, vars) {
     var expected = [];
-    fibonacci(5, expected, 0, 1);
+    if (inp[0] > 0) {
+      fibonacci(5, expected, 0, 1);
+    } else {
+      return [0];
+    }
     return expected;
   });
 }
 
 function t_nFactorial(data) {
-
+  TESTS.SimpleOutputTestWithInputRange(data, {min: 0, max: 12}, function(inp, vars) {
+    var expected = 1;
+    for (var i = 0; i < inp[0]; ++i) {
+      expected *= i;
+    }
+    return [expected];
+  });
 }
 
 TESTS.SetupButtonTest();
