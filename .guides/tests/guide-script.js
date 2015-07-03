@@ -90,5 +90,13 @@ function t_nFactorial(data) {
   });
 }
 
-TESTS.SetupButtonTest();
+function waitForCrunchScript() {
+  if (!window.CRUNCH_COMMON_LOADED) {
+    setTimeout(waitForCrunchScript, 100);
+    return;
+  }
+  TESTS.SetupButtonTest();
+}
+
+waitForCrunchScript();
 
