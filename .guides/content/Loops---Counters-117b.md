@@ -10,4 +10,5 @@ Step through the code on the left and make sure you see what is happening.
 
 This is the simplest possible example for a counter. However, very rarely can we get away with using the Accumulator as a counter. We'll see on the next page how we use a counter variable instead.
 
-
+## Lexikon
+Don't forget Codio has an inbuilt lexikon that lets you look up commands and more. Select the `Tools->Lexikon` menu item to bring up the Lexikon. You should then select 'Crunch' from the dropdown on the right hand side. 
