@@ -1,3 +1,5 @@
+var tests = null;
+
 function t_print0ToN(data) {
   tests.SimpleOutputTestWithInputRange(data, {min: 0, max: 20}, function(inp, vars) {
     var expected = [0];
@@ -91,10 +93,11 @@ function t_nFactorial(data) {
 }
 
 function waitForCrunchScript() {
-  if (!window.TESTS_COMMON_LOADED) {
+  if (!window.TESTS_COMMON) {
     setTimeout(waitForCrunchScript, 100);
     return;
   }
+  tests = window.TESTS_COMMON;
   tests.SetupButtonTest();
 }
 
