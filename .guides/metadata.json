@@ -201,8 +201,7 @@
  ],
  "theme": "paper",
  "scripts": [
-  "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js",
-  "https://crunch.codio.com/js/crunchCommon.js",
+  "https://crunch.codio.com/build/testsCommon.min.js",
   ".guides/tests/guide-script.js"
  ]
 }
