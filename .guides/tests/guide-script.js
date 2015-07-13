@@ -66,20 +66,16 @@ function t_xPowerY(data) {
 }
 
 function t_fibonacci(data) {
-  var fibonacci = function(iterations, output, val1, val2) {
+  /*var fibonacci = function(iterations, output, val1, val2) {
     if (iterations > 0) {
       output.push(fibonacci(iterations - 1, output, val2, val1 + val2));
     }
     return val1;
-  }
+  }*/
+  var FIBONACCI = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946];
   
   tests.SimpleOutputTestWithInputRange(data, {min: 0, max: 20}, function(inp, vars) {
-    var expected1 = [];
-    fibonacci(inp[0], expected1, 0, 1);
-    var expected2 = expected1.slice();
-    expected1.push(0);
-    expected1.reverse();
-    return {num: 2, values: [expected1, expected2]};
+    return {num: 2, values: [FIBONACCI.slice(0, 20), FIBONACCI.slice(1, 21)]};
   });
 }
 
