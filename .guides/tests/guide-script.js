@@ -74,11 +74,12 @@ function t_fibonacci(data) {
   }
   
   tests.SimpleOutputTestWithInputRange(data, {min: 0, max: 20}, function(inp, vars) {
-    var expected = [];
-    fibonacci(inp[0], expected, 0, 1);
-    expected.push(0);
-    expected.reverse();
-    return expected;
+    var expected1 = [];
+    fibonacci(inp[0], expected1, 0, 1);
+    var expected2 = expected1.slice();
+    expected1.push(0);
+    expected1.reverse();
+    return {num: 2, values: [expected1, expected2]};
   });
 }
 
