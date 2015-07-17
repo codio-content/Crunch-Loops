@@ -201,7 +201,7 @@
  ],
  "theme": "paper",
  "scripts": [
-  "https://crunch.codio.com/build/testsCommon.min.js",
+  "https://crunch.codio.com/build/testsCommon.min.0.1.0.js",
   ".guides/tests/guide-script.js"
  ]
 }
