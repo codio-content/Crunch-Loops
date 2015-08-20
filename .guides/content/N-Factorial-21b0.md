@@ -5,6 +5,7 @@ more formally written as $$ n!=\prod_{k=1}^n k \! $$
 
 Don't forget that 0! = 1.
 
-{Check it!! | custom}(nFactorial.crunch)
+{Check It!|assessment}(test-670127966)
+
 
 |||

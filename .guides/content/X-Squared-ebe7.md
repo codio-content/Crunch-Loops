@@ -10,6 +10,7 @@ for the values x=1 to 10.
 
 When you're done, press the button below.
 
-{Check it!! | custom}(x2.crunch)
+{Check It!|assessment}(test-4278270133)
+
 
 |||

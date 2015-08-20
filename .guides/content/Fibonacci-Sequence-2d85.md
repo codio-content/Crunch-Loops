@@ -21,5 +21,6 @@ Write a program that implements the Fibonacci sequence. Your code should do the 
 
 When you're done, press the button below.
 
-{Check it!! | custom}(fibonacci.crunch)
+{Check It!|assessment}(test-1934626349)
+
 |||

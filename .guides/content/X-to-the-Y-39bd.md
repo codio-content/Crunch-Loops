@@ -11,6 +11,7 @@ For any input validation errors, output the value `-1`.
 
 When you're done, press the button below.
 
-{Check it!! | custom}(xPowerY.crunch)
+{Check It!|assessment}(test-3830718847)
+
 
 |||

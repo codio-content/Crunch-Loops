@@ -8,6 +8,7 @@ Write a program that does the following
 
 When you're done, press the button below.
 
-{Check it!! | custom}(printNTo0.crunch)
+{Check It!|assessment}(test-2462994693)
+
 
 |||
