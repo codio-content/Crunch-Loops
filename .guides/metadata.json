@@ -17,7 +17,9 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Loops---Counters-117b.md"
+   "content-file": ".guides/content/Loops---Counters-117b.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "e13ab78d-aa8c-c2a7-7cad-15e39bd7c667",
@@ -36,7 +38,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Another-Counter-example-e13a.md"
+   "content-file": ".guides/content/Another-Counter-example-e13a.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "a0d15fc0-d0be-bffb-5947-fb53c839e3a2",
@@ -44,7 +48,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Threshold-Concepts-a0d1.md"
+   "content-file": ".guides/content/Threshold-Concepts-a0d1.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "ec05eba0-3fae-3197-aa67-6fe627b5ac8f",
@@ -63,7 +69,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Print-0-to-N-ec05.md"
+   "content-file": ".guides/content/Print-0-to-N-ec05.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "7ac3499d-b13c-a408-dc32-769cdb9c25a9",
@@ -82,7 +90,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Print-N-to-0-7ac3.md"
+   "content-file": ".guides/content/Print-N-to-0-7ac3.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "ebe7c097-4bc8-74ec-da41-ae189a5b64ff",
@@ -101,7 +111,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/X-Squared-ebe7.md"
+   "content-file": ".guides/content/X-Squared-ebe7.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "4f621ed7-2039-76fa-8449-ee194922fa1d",
@@ -120,7 +132,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Times-Table-4f62.md"
+   "content-file": ".guides/content/Times-Table-4f62.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "39bd8f5b-8afc-c7b8-474c-a19a9fc9cad3",
@@ -139,7 +153,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/X-to-the-Y-39bd.md"
+   "content-file": ".guides/content/X-to-the-Y-39bd.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "2d8518b7-b528-cdfc-9c1e-818ff065d0a",
@@ -158,7 +174,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Fibonacci-Sequence-2d85.md"
+   "content-file": ".guides/content/Fibonacci-Sequence-2d85.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "53def91b-82ac-7270-f013-79a5a4f22d73",
@@ -177,7 +195,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/X-Divided-by-Y-53de.md"
+   "content-file": ".guides/content/X-Divided-by-Y-53de.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "21b0c0dd-563a-1dfb-9b93-136937eb4e51",
@@ -196,12 +216,12 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/N-Factorial-21b0.md"
+   "content-file": ".guides/content/N-Factorial-21b0.md",
+   "chapter": false,
+   "reset": []
   }
  ],
- "theme": "paper",
- "scripts": [
-  "https://crunch.codio.com/build/testsCommon.min.0.1.0.js",
-  ".guides/tests/guide-script.js"
- ]
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
 }
