@@ -1,0 +1,130 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1417280136",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_10Div2",
+   "instructions": "Write a program that divides X by Y and outputs the result rounded down to the nearest whole number. \n\n**You may NOT use the `DIV` instruction** so you will have to figure out a clever way of managing it.\n\nYou should create 2 DAT variables \n\n- `X` for the numerator\n- `Y` for the denominator\n\nand test your program by setting these numbers to whatever you like.\n\nYou should choose values for X and Y where \n\n- both X and Y should be positive values and \n- Y is not 0\n\nYour program does not have to cater for invalid values, although you can validate the input if you like.\n\nIf the validation fails, output `-1`.\n\nWhen you're done, press the button below.",
+   "command": "nodejs .guides/tests/10Div2.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1452663076",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_print0ToN",
+   "instructions": "Write a program that does the following\n\n1. Inputs a number\n2. Write a loop that prints out all numbers from 0 up to and including the number you entered\n\nWhen you're done, press the button below.",
+   "command": "nodejs .guides/tests/print0ToN.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1829406929",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_timesTable",
+   "instructions": "1. Input a value not higher than 12.\n2. If the user enters a value higher than 12, then a) output a value `99` using the special message \"Number too large\" and b) terminate the program.\n3. Output a 12 times multiplication table for the number input, so you enter 5, it will output 5, 10, 15, 20 ... up to 60.",
+   "command": "nodejs .guides/tests/timesTable.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1934626349",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_fibonacci",
+   "instructions": "Write a program that implements the Fibonacci sequence. Your code should do the following\n\n1. Input the maximum number of iterations.\n2. The number of iterations should match the number of numbers you output.\n3. Output each number in the sequence to the console.\n\nWhen you're done, press the button below.",
+   "command": "nodejs .guides/tests/fibonacci.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2462994693",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_printNTo0",
+   "instructions": "Write a program that does the following\n\n1. Input a number \n2. Write a loop that prints out all numbers from the number you input down to and including 0\n\nWhen you're done, press the button below.",
+   "command": "nodejs .guides/tests/printNTo0.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3830718847",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_xPowerY",
+   "instructions": "1. Input a **non-negative** value X\n2. Input a **non-negative** value Y\n3. Write a program that calculates X raised to the power of Y\n\n$$\nX^Y\n$$\n\nFor any input validation errors, output the value `-1`.\n\nWhen you're done, press the button below.",
+   "command": "nodejs .guides/tests/xPowerY.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4278270133",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_x2",
+   "instructions": "Write a program to calculate and output \n\n$$\nx^2\n$$\n\nfor the values x=1 to 10.\n\nWhen you're done, press the button below.",
+   "command": "nodejs .guides/tests/x2.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-670127966",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_nFactorial",
+   "instructions": "Calculate N! $$ N \\times (N-1) \\times (N-2) ...  \\times (1) $$\n\nmore formally written as $$ n!=\\prod_{k=1}^n k \\! $$\n\nDon't forget that 0! = 1.",
+   "command": "nodejs .guides/tests/nFactorial.js",
+   "points": 1
+  }
+ }
+]
